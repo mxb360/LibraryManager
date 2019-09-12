@@ -1,0 +1,4 @@
+*out/
+*save.dat
+*.idea/
+*LibraryManager.iml

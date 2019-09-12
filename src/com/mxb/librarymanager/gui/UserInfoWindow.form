@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.mxb.librarymanager.gui.UserInfoWindow">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="25" column-count="15" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="932" height="742"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="325fd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="20" style="0"/>
+          <text value="借阅证号："/>
+        </properties>
+      </component>
+      <component id="1f1e4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="20" style="0"/>
+          <text value="姓名："/>
+        </properties>
+      </component>
+      <component id="28695" class="javax.swing.JTextField" binding="nameTextField">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="12" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="20" style="0"/>
+        </properties>
+      </component>
+      <component id="a9436" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="20" style="0"/>
+          <text value="密码"/>
+        </properties>
+      </component>
+      <component id="59baa" class="javax.swing.JTextField" binding="passwordTextField">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="12" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="22" style="0"/>
+        </properties>
+      </component>
+      <component id="d9c4b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="20" style="0"/>
+          <text value="学院："/>
+        </properties>
+      </component>
+      <component id="9a3e6" class="javax.swing.JRadioButton" binding="studentRadioButton">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="20" style="0"/>
+          <text value="学生"/>
+        </properties>
+      </component>
+      <component id="6ea9d" class="javax.swing.JRadioButton" binding="adminRadioButton">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="12" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="20" style="0"/>
+          <text value="管理员"/>
+        </properties>
+      </component>
+      <component id="2c74f" class="javax.swing.JRadioButton" binding="canLendRadioButton">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="20" style="0"/>
+          <text value="能借书"/>
+        </properties>
+      </component>
+      <component id="d60c4" class="javax.swing.JRadioButton" binding="canNotLendRadioButton">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="12" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="20" style="0"/>
+          <text value="不能借书"/>
+        </properties>
+      </component>
+      <hspacer id="41e42">
+        <constraints>
+          <grid row="0" column="14" row-span="25" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="5fd81">
+        <constraints>
+          <grid row="0" column="0" row-span="25" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="6bfe2">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="13" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="9adf">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="13" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="4986b">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="13" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="f5cef">
+        <constraints>
+          <grid row="24" column="1" row-span="1" col-span="13" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="2f137" class="javax.swing.JLabel" binding="titleLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="13" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="26" style="0"/>
+          <text value="用户信息 - &lt;命令&gt;"/>
+        </properties>
+      </component>
+      <component id="c3b9e" class="javax.swing.JTextField" binding="collegeTextField">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="12" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="20" style="0"/>
+        </properties>
+      </component>
+      <vspacer id="e1b6c">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="13" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="a4a3f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="                                                                                                                                    "/>
+        </properties>
+      </component>
+      <component id="124de" class="javax.swing.JButton" binding="okButton">
+        <constraints>
+          <grid row="23" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="22" style="0"/>
+          <text value="&lt;命令&gt;"/>
+        </properties>
+      </component>
+      <component id="a5da1" class="javax.swing.JTextField" binding="numberTextField">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="12" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="20" style="0"/>
+        </properties>
+      </component>
+      <component id="5ea04" class="javax.swing.JLabel" binding="lendCountLabel">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="13" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="20" style="0"/>
+          <foreground color="-14600968"/>
+          <text value="当前借书：x本"/>
+        </properties>
+      </component>
+      <component id="db96" class="javax.swing.JLabel" binding="totalPriceLabel">
+        <constraints>
+          <grid row="17" column="1" row-span="1" col-span="13" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="20" style="0"/>
+          <foreground color="-14600968"/>
+          <text value="借书总价值：xx.xx元"/>
+        </properties>
+      </component>
+      <component id="8a775" class="javax.swing.JLabel" binding="overCountLabel">
+        <constraints>
+          <grid row="18" column="1" row-span="1" col-span="13" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="20" style="0"/>
+          <foreground color="-14600968"/>
+          <text value="已超期：x本"/>
+        </properties>
+      </component>
+      <component id="724c" class="javax.swing.JLabel" binding="overPriceLabel">
+        <constraints>
+          <grid row="19" column="1" row-span="1" col-span="13" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="20" style="0"/>
+          <foreground color="-14600968"/>
+          <text value="超期总罚金：xx.xx元"/>
+        </properties>
+      </component>
+      <vspacer id="930a6">
+        <constraints>
+          <grid row="22" column="1" row-span="1" col-span="13" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="c175f" class="javax.swing.JButton" binding="detailsButton">
+        <constraints>
+          <grid row="20" column="1" row-span="1" col-span="13" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="20" style="0"/>
+          <foreground color="-14600968"/>
+          <text value="   详细信息   "/>
+        </properties>
+      </component>
+      <component id="7cad9" class="javax.swing.JButton" binding="lendButton">
+        <constraints>
+          <grid row="21" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="20" style="0"/>
+          <text value="用户借书"/>
+        </properties>
+      </component>
+      <component id="22e15" class="javax.swing.JButton" binding="returnButton">
+        <constraints>
+          <grid row="21" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="20" style="0"/>
+          <text value="用户还书"/>
+        </properties>
+      </component>
+      <component id="59d62" class="javax.swing.JButton" binding="changeButton">
+        <constraints>
+          <grid row="21" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="20" style="0"/>
+          <text value="修改用户信息"/>
+        </properties>
+      </component>
+      <component id="af540" class="javax.swing.JButton" binding="removeButton">
+        <constraints>
+          <grid row="21" column="6" row-span="1" col-span="8" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="20" style="0"/>
+          <text value="删除该用户"/>
+        </properties>
+      </component>
+      <component id="be9f4" class="javax.swing.JButton" binding="refreshButton">
+        <constraints>
+          <grid row="21" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="20" style="0"/>
+          <text value="刷新信息"/>
+        </properties>
+      </component>
+      <component id="323d3" class="javax.swing.JButton" binding="cancelButton">
+        <constraints>
+          <grid row="23" column="6" row-span="1" col-span="8" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="24" style="0"/>
+          <text value="取消"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
