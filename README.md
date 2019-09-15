@@ -7,6 +7,8 @@
 <p><font color=black>在开发这个项目中需要涉及到以下知识点：<br></font>　　<font color=black>1. 熟悉Java swing界面开发<br></font>　　<font color=black>2. 熟悉HTTP协议，能实现通过Java访问http连接<br></font>　　<font color=black>3. 熟悉MySQL基本知识，以及运用Java连接MySQL<br></font>　　<font color=black>4. 熟悉Json，服务器的返回的数据为json格式，能用Java处理json数据<br></font>　　<font color=black>5. 熟悉Django，能够通过Django搭建一个服务器后台，处理请求，返回json格式<br></font>　　<font color=black>6. 熟悉使用Django访问MySQL，服务器端采用MySQL保存数据<br></font>　　<font color=black>7. 熟悉Java的接口，实现一个通用的数据操作接口，通过继承该接口，实现用不同的方式存储数据，可以访问服务器、直连MySQL、保存为文件等方式操作数据。<br></font></p>
 <h2 style="color:blue;"><strong>三、项目实现</strong></h2><p>　　<font color=black>确定基本功能和需求<br></font>　　<font color=black>设计出各个功能的界面<br></font>　　<font color=black>编写数据处理的接口<br></font>　　<font color=black>完成客户端的基本逻辑<br></font>　　<font color=black>实现服务器后端对数据的操作<br></font>　　<font color=black>继承数据操作接口，实现提供服务器进行数据操作<br></font>　　<font color=black>完成客户端的基本功能<br></font>　　<font color=black>继承数据操作接口，实现通过连接MySQL操作数据，或者通过文件的方式操作数据<br></font></p>
 <p>　　<font color=black>注：该项目还未完全实现，正在完善中...<br></font></p>
+<h3>服务器端</h3>
+<p>　　<a href="https://github.com/mxb360/library_manager_system_server">https://github.com/mxb360/library_manager_system_server</p>
 <h3>更多信息</h3>
 <p>　　参见<a href="http://39.108.3.243/mxb/book-manager/">http://39.108.3.243/mxb/book-manager/</p>
             
