@@ -10,5 +10,5 @@
 <h3>服务器端</h3>
 <p>　　<a href="https://github.com/mxb360/library_manager_system_server">https://github.com/mxb360/library_manager_system_server</p>
 <h3>更多信息</h3>
-<p>　　参见<a href="http://39.108.3.243/mxb/book-manager/">http://39.108.3.243/mxb/book-manager/</p>
+<p>　　参见：<a href="http://39.108.3.243/mxb/book-manager/">http://39.108.3.243/mxb/book-manager/</p>
             
